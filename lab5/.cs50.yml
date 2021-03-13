@@ -1,0 +1,10 @@
+lab50:
+  files:
+    - !exclude "*"
+    - !include lab5.py
+    - !include random-layout.py
+  window:
+    - readme
+    - editor
+    - terminal
+    - x
