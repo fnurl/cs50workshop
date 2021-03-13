@@ -37,6 +37,8 @@ Tänk på att ändra på alla ställen i `if`-satsen där `"Sneak"` förekommer.
 
 **Testa adventure.py för att försäkra dig om att det fungerar.**
 
+{% next %}
+
 
 ### Steg 2: Använd en main-funktion
 
@@ -45,6 +47,8 @@ utskrift av figurer ligger i en ny funktion med namnet `main()`. Glöm inte bort
 att anropa `main()` i slutet av filen.
 
 **Testa adventure.py för att försäkra dig om att det fungerar.**
+
+{% next %}
 
 
 ### Steg 3: Bryta ut data och funktioner i moduler
@@ -60,6 +64,8 @@ datastrukturer i `adventure.py` med rätt namnrymd/namespace (beroende på hur d
 gör importen).
 
 **Testa adventure.py för att försäkra dig om att det fungerar.**
+
+{% next %}
 
 
 ### Steg 4: Skapa ny datastruktur för strukturen på äventyret, ADVENTURE_TREE
@@ -104,6 +110,8 @@ på t.ex. Wikipedia.
 
 - [Finite state machine](https://en.wikipedia.org/wiki/Finite-state_machine)
 - [State diagram](https://en.wikipedia.org/wiki/State_diagram)
+
+{% next %}
 
 
 ### Steg 5: Använd ny datastruktur `ADVENTURE_TREE`
@@ -150,6 +158,8 @@ Gör dessa ändring genomgående i alla `if`-satser, där `current_state` uppdat
 utifrån `inp`.
 
 **Testa adventure.py för att försäkra dig om att det fungerar.**
+
+{% next %}
 
 
 ### Steg 6: Funktion för att byta tillstånd
@@ -274,6 +284,9 @@ In [3]: print_pic("Red")
 In [4]:
 ```
 
+{% next %}
+
+
 ### Steg 7: En ny main-funktion
 
 Döp om er `main()`-funktion till `main_old()`. Vi behåller den för tillfället
@@ -302,11 +315,15 @@ Se till att "gameover"-bilden visas när spelet är slut.
 
 **Testa adventure.py för att försäkra dig om att det fungerar.**
 
+{% next %}
+
 
 ### Steg 8 Städa ev upp kod
 
 Se till att koden i skriptet är prydligt disponerad, dvs att ordningen importer,
 funktioner, övrig kod följs.
+
+{% next %}
 
 
 ### Steg 9 Utöka/Ändra spelet
@@ -319,6 +336,8 @@ Tänk på att ni behöver lägga till/ändra information i alla datastrukturer:
 
 Jämför hur lätt/svårt det är att göra denna ändring jämfört med det första
 steget i denna uppgift.
+
+{% next %}
 
 
 ## Uppgift 2 (frivillig)
