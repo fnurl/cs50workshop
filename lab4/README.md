@@ -189,7 +189,7 @@ Om ni tittar på `ADVENTURE_TREE` så ser ni att vi måste hantera två fall:
 
 Strukturen för `get_next_state(state)` kan se ut så här:
 
-{% spoilerbox %}
+{% spoiler %}
 - Hämta möjliga nästa tillstånd för `state` från `ADVENTURE_TREE`
 - Om det bara finns ett möjligt nästa tillstånd, returnera detta.
 - Om det finns fler, presentera dessa för användaren, fråga efter ett val
